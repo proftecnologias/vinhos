@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img {
+    max-width: 100%;
+}
+.header {
+    min-width:100%;
+    background: rgb(119, 119, 235);
+    height:20vh;
+    border:1px solid red;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.destaque {
+    text-shadow: 2px 3px 5px black;
+    text-align: center;
+    color:white;
+
+}
+.contentor {
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fill,minmax(360px,1fr));
+    grid-gap:1em;
+    overflow: hidden;
+    border: 1.5em solid white;
+}
+.artigo {
+    display:grid;
+    width:100%;
+    align-items: start;
+    border: 2px solid black;
+    box-shadow: 5px 6px 9px black;
+    background-color: antiquewhite;
+
+}
+.imagem {
+    border:1em solid white;
+}
+.texto {
+    font-size: 20px;
+    font-weight: 600;
+    padding:5px;
+}
+.botao {
+    display:block;
+    padding: 15px;
+    background: rgb(140, 93, 184);
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color:aliceblue;
+    align-self: end;
+
+}
